@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="description" content="Suhaann Patel — junior cricketer, Singapore. 1,337 runs at 58.13, strike rate 133.97, four centuries across 2024–2026. Verified record, match reports and video.">
+<meta name="author" content="Suhaann Patel">
+<link rel="icon" href="favicon.png">
+<link rel="canonical" href="SITE_URL/">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Suhaann Patel — Cricket Portfolio">
+<meta property="og:title" content="Suhaann Patel — Cricket Portfolio, Singapore">
+<meta property="og:description" content="1,337 runs at 58.13 · strike rate 133.97 · four centuries. Three seasons of verified record, league match reports and match video.">
+<meta property="og:image" content="SITE_URL/media/social-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="SITE_URL/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Suhaann Patel — Cricket Portfolio, Singapore">
+<meta name="twitter:description" content="1,337 runs at 58.13 · strike rate 133.97 · four centuries across three seasons.">
+<meta name="twitter:image" content="SITE_URL/media/social-card.jpg">
+<title>Suhaann Patel — Player Portfolio</title>
+<style>
+:root{
+  --ink:#070d16; --ink2:#0e1a2b; --panel:#111e30; --panel2:#16263c;
+  --line:rgba(255,255,255,.11); --line2:rgba(255,255,255,.2);
+  --txt:#eaf1f9; --mut:#8ea3bd; --mut2:#647d9b;
+  --red:#ff2d4d; --red2:#c8102e; --gold:#f5c451; --teal:#19d3b0; --ice:#7cc4ff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--txt);
+  font:16px/1.65 "Inter","Helvetica Neue",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.wrap{max-width:1140px;margin:0 auto;padding:0 26px}
+h1,h2,h3{font-weight:800;letter-spacing:-.03em;line-height:1.03}
+img,video{display:block;max-width:100%}
+
+/* ============ confidential ============ */
+.conf{background:#000;color:#7b8ea6;font-size:10.5px;font-weight:700;letter-spacing:.2em;
+  text-transform:uppercase;text-align:center;padding:10px}
+
+/* ============ HERO ============ */
+.hero{position:relative;min-height:96vh;display:flex;align-items:flex-end;overflow:hidden}
+.hero-img{position:absolute;inset:0;background:url('media/hero.jpg') center 22%/cover no-repeat;
+  transform:scale(1.06);filter:saturate(1.12) contrast(1.06)}
+.hero-veil{position:absolute;inset:0;
+  background:linear-gradient(to top,var(--ink) 4%,rgba(7,13,22,.9) 32%,rgba(7,13,22,.42) 62%,rgba(7,13,22,.62) 100%),
+             radial-gradient(ellipse at 22% 78%, rgba(255,45,77,.3), transparent 62%)}
+.hero .wrap{position:relative;z-index:3;padding-bottom:52px;width:100%}
+.flag{display:inline-flex;align-items:center;gap:9px;font-size:11px;font-weight:800;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
+.flag:before{content:"";width:30px;height:2px;background:var(--gold)}
+.hero h1{font-size:clamp(52px,10.5vw,132px);text-transform:uppercase;
+  background:linear-gradient(180deg,#fff 32%,#9fc0e4 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  text-shadow:0 30px 80px rgba(0,0,0,.6)}
+.hero .role{font-size:clamp(14px,2vw,19px);color:#c6d8ec;margin-top:16px;font-weight:500;
+  letter-spacing:.02em}
+.hero .role b{color:var(--red);font-weight:800}
+
+/* headline strip */
+.strip{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:34px}
+.strip div{background:rgba(7,13,22,.72);backdrop-filter:blur(9px);padding:19px 8px 17px;text-align:center}
+.strip .n{font-size:clamp(24px,4vw,38px);font-weight:800;letter-spacing:-.04em;line-height:1;
+  background:linear-gradient(180deg,#fff,var(--ice));-webkit-background-clip:text;background-clip:text;color:transparent}
+.strip .l{font-size:9.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--mut2);margin-top:9px}
+
+/* ============ sections ============ */
+section{padding:88px 0}
+.kick{display:inline-block;font-size:10.5px;font-weight:800;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--red);margin-bottom:14px}
+h2{font-size:clamp(30px,4.6vw,50px);margin-bottom:14px}
+.lede{color:var(--mut);font-size:17.5px;max-width:64ch;margin-bottom:38px}
+
+/* ============ the case ============ */
+.case{display:grid;grid-template-columns:1.25fr .95fr;gap:26px;align-items:start}
+.case-txt p{font-size:17.5px;line-height:1.72;color:#c9d8e8}
+.case-txt p+p{margin-top:17px}
+.case-txt b{color:#fff;font-weight:700}
+.hl{background:linear-gradient(transparent 58%,rgba(255,45,77,.32) 58%);padding:0 2px}
+.pcards{display:grid;gap:13px}
+.pc{background:linear-gradient(150deg,var(--panel),var(--ink2));border:1px solid var(--line);
+  border-radius:15px;padding:22px 24px;position:relative;overflow:hidden}
+.pc:after{content:"";position:absolute;right:-38px;top:-38px;width:110px;height:110px;
+  border-radius:50%;opacity:.18}
+.pc.r:after{background:var(--red)} .pc.t:after{background:var(--teal)} .pc.g:after{background:var(--gold)}
+.pc .n{font-size:38px;font-weight:800;letter-spacing:-.04em;line-height:1}
+.pc.r .n{color:var(--red)} .pc.t .n{color:var(--teal)} .pc.g .n{color:var(--gold)}
+.pc .t1{font-size:14px;font-weight:700;margin-top:7px}
+.pc .t2{font-size:13px;color:var(--mut);margin-top:5px;line-height:1.5}
+
+/* ============ centuries ============ */
+.tons{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.ton{background:linear-gradient(155deg,#1a2740,#0d1725);border:1px solid var(--line);
+  border-radius:18px;padding:30px;position:relative;overflow:hidden}
+.ton:before{content:"";position:absolute;left:0;top:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--red),var(--gold))}
+.ton .score{font-size:74px;font-weight:800;letter-spacing:-.05em;line-height:.9;
+  background:linear-gradient(180deg,#fff,var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.ton .off{font-size:15px;color:var(--gold);font-weight:700;margin-top:8px}
+.ton .meta{font-size:13.5px;color:var(--mut);margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+.ton .meta b{color:#dce8f5;font-weight:600}
+.tstat{display:flex;gap:22px;margin-top:16px;flex-wrap:wrap}
+.tstat div{font-size:12px;color:var(--mut2);font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.tstat span{display:block;font-size:21px;color:#fff;font-weight:800;letter-spacing:-.02em;margin-top:3px;text-transform:none}
+
+/* ============ press ============ */
+.press{display:grid;gap:18px}
+.quote{background:linear-gradient(150deg,rgba(255,255,255,.055),rgba(255,255,255,.015));
+  border:1px solid var(--line);border-radius:18px;padding:32px 34px;position:relative}
+.quote .mark{position:absolute;left:22px;top:6px;font-size:88px;line-height:1;color:var(--red);opacity:.2;font-family:Georgia,serif}
+.quote q{display:block;font-size:clamp(19px,2.5vw,26px);line-height:1.42;font-weight:600;
+  color:#fff;quotes:none;position:relative;z-index:2}
+.quote q:before,.quote q:after{content:""}
+.quote .att{margin-top:18px;font-size:13px;color:var(--mut);display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:6px;background:rgba(124,196,255,.13);
+  border:1px solid rgba(124,196,255,.3);color:var(--ice);padding:4px 11px;border-radius:100px;
+  font-size:11px;font-weight:700;letter-spacing:.05em}
+
+/* ============ chart ============ */
+.chartcard{background:linear-gradient(160deg,var(--panel),var(--ink2));border:1px solid var(--line);
+  border-radius:20px;padding:30px 30px 20px}
+.chartwrap{margin:4px 0 2px}
+.cap{font-size:13.5px;color:var(--mut2);margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
+
+/* ============ table ============ */
+.tablecard{background:linear-gradient(160deg,var(--panel),var(--ink2));border:1px solid var(--line);
+  border-radius:20px;overflow:hidden}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:820px}
+th{background:rgba(0,0,0,.42);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+  padding:15px 13px;text-align:right;font-weight:800;color:var(--mut);white-space:nowrap}
+th:first-child{text-align:left}
+td{padding:15px 13px;text-align:right;border-top:1px solid var(--line);white-space:nowrap;color:#cfdcea}
+td:first-child{text-align:left;font-weight:700;color:#fff}
+.win{display:block;font-size:11.5px;color:var(--mut2);font-weight:400;margin-top:3px}
+tr.tot td{background:rgba(255,45,77,.09);font-weight:800;color:#fff;border-top:2px solid var(--red)}
+.hot{color:var(--gold);font-weight:800}
+
+/* ============ honours ============ */
+.hons{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.hon{background:linear-gradient(160deg,rgba(245,196,81,.13),rgba(255,255,255,.02));
+  border:1px solid rgba(245,196,81,.28);border-radius:18px;padding:28px}
+.hon .r{font-size:52px;font-weight:800;color:var(--gold);letter-spacing:-.05em;line-height:.9}
+.hon h3{font-size:17px;margin:14px 0 10px}
+.hon p{font-size:14px;color:var(--mut);line-height:1.6}
+.hon .gap{margin-top:16px;padding-top:14px;border-top:1px solid rgba(245,196,81,.24);
+  font-size:13px;font-weight:700;color:var(--teal)}
+
+/* ============ gallery ============ */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.gi{position:relative;border-radius:14px;overflow:hidden;background:var(--panel);aspect-ratio:3/4}
+.gi img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.gi:hover img{transform:scale(1.06)}
+.gi .cp{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;font-size:11.5px;
+  font-weight:600;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.88))}
+.gi.w2{grid-column:span 2;aspect-ratio:3/2}
+
+/* ============ video ============ */
+.vids{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.vid{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.vid video{width:100%;aspect-ratio:16/9;object-fit:cover;background:#000}
+.vid .vc{padding:15px 17px}
+.vid .vt{font-size:14px;font-weight:700}
+.vid .vd{font-size:12.5px;color:var(--mut2);margin-top:4px}
+
+/* ============ profile ============ */
+.pgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.det{background:linear-gradient(160deg,var(--panel),var(--ink2));border:1px solid var(--line);
+  border-radius:18px;padding:26px 28px}
+.det h3{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--mut2);margin-bottom:18px;font-weight:800}
+.det dl{display:grid;grid-template-columns:auto 1fr;gap:13px 18px;font-size:14.5px}
+.det dt{color:var(--mut)}
+.det dd{text-align:right;font-weight:700;color:#fff}
+
+/* ============ sources ============ */
+.src{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:18px;padding:28px 30px}
+.src ul{list-style:none;font-size:14.5px}
+.src li{padding:11px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.src li:last-child{border-bottom:none}
+.src a{color:var(--ice);text-decoration:none;word-break:break-all}
+.src a:hover{text-decoration:underline}
+.note{font-size:13.5px;color:var(--mut2);font-style:italic;margin-top:18px;line-height:1.65}
+
+footer{border-top:1px solid var(--line);padding:34px 0;text-align:center;color:var(--mut2);font-size:13px}
+
+@media (max-width:900px){
+  .case,.pgrid,.tons{grid-template-columns:1fr}
+  .hons,.vids{grid-template-columns:1fr}
+  .gal{grid-template-columns:repeat(2,1fr)}
+  .gi.w2{grid-column:span 2}
+  .strip{grid-template-columns:repeat(2,1fr)}
+  section{padding:60px 0}
+}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Suhaann Patel",
+ "alternateName":"Suhaan Patel","nationality":"Singapore",
+ "description":"Junior cricketer — right-hand opening batter and right-arm medium bowler. 1,337 runs at an average of 58.13 with four centuries across 2024–2026.",
+ "image":"SITE_URL/media/social-card.jpg","url":"SITE_URL/",
+ "knowsAbout":"Cricket","homeLocation":{"@type":"Place","name":"Singapore"}}
+</script>
+</head>
+<body>
+
+<!-- ================= HERO ================= -->
+<div class="hero">
+  <div class="hero-img"></div>
+  <div class="hero-veil"></div>
+  <div class="wrap">
+    <div class="flag">Player Portfolio · Singapore · 2024–2026</div>
+    <h1>Suhaann<br>Patel</h1>
+    <p class="role">Right-hand opening batter · Right-arm medium · <b>1,337 runs at 58.13</b></p>
+    <div class="strip">
+      <div><div class="n">1,337</div><div class="l">Runs · 37 matches</div></div>
+      <div><div class="n">58.13</div><div class="l">Average</div></div>
+      <div><div class="n">133.97</div><div class="l">Strike rate</div></div>
+      <div><div class="n">4</div><div class="l">Centuries</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+<!-- ================= THE CASE ================= -->
+<section>
+  <span class="kick">The case</span>
+  <h2>A scoring rate that compounds</h2>
+  <div class="case">
+    <div class="case-txt">
+      <p>Most junior batters improve by adding runs. Suhaann has added runs <em>and</em> pace, season after season, without giving up his average — the harder and rarer combination.</p>
+      <p>Across three seasons his strike rate has moved <b class="hl">115.91 → 133.62 → 152.82</b> — faster in every season. Over the same span his average rose 14.71 points, from 51.00 to 65.71, easing 1.29 from its 2025 peak. Batters who add thirty-seven runs per hundred balls usually pay far more than that.</p>
+      <p>The method is visible in the ball-by-ball record: <b class="hl">69.9% of his career runs have come in boundaries</b> — 199 fours and 23 sixes from 998 balls. He scores through the field, from the top of the order.</p>
+      <p>Four hundreds and eight fifties in 33 innings means he converts. Two of those hundreds came in 2025 and two in 2026 — the big score is repeatable rather than exceptional.</p>
+    </div>
+    <div class="pcards">
+      <div class="pc r"><div class="n">152.82</div><div class="t1">Strike rate, 2026 season</div><div class="t2">Up from 115.91 two seasons earlier</div></div>
+      <div class="pc t"><div class="n">69.9%</div><div class="t1">Of career runs in boundaries</div><div class="t2">199 fours, 23 sixes from 998 balls</div></div>
+      <div class="pc g"><div class="n">4</div><div class="t1">Centuries</div><div class="t2">Best of 119 — all four since February 2025</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CENTURIES ================= -->
+<section>
+  <span class="kick">Signature innings</span>
+  <h2>Two hundreds, thirteen months apart</h2>
+  <p class="lede">Both were reported by SportyGo Singapore, the league operator, with full ball-by-ball detail. The second was faster than the first.</p>
+  <div class="tons">
+    <div class="ton">
+      <div class="score">119</div>
+      <div class="off">off 75 balls · strike rate 158.67</div>
+      <div class="tstat">
+        <div>Fours<span>15</span></div>
+        <div>Sixes<span>5</span></div>
+        <div>Position<span>Opener</span></div>
+      </div>
+      <div class="meta"><b>8 June 2025</b> · Scorpien Falcons v NPSIS Lions<br>DPS International School, Singapore<br>SGO Under-11 League, Season 3 — his second century of that season</div>
+    </div>
+    <div class="ton">
+      <div class="score">103</div>
+      <div class="off">off 56 balls · strike rate 183.92</div>
+      <div class="tstat">
+        <div>Fours<span>19</span></div>
+        <div>Sixes<span>4</span></div>
+        <div>Result<span>Match-winning</span></div>
+      </div>
+      <div class="meta"><b>19 July 2026</b> · Scorpien Strikers v CricKingdom Thunders<br>DPS International School, Singapore<br>SGO U-11 Junior League, Season 4 — headlined the round</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRESS ================= -->
+<section>
+  <span class="kick">Coverage</span>
+  <h2>What the league says</h2>
+  <p class="lede">SportyGo Singapore is the operator of the SGO Junior Cricket League. These are their own match reports — independent third-party assessment, not family testimony.</p>
+  <div class="press">
+    <div class="quote">
+      <div class="mark">&ldquo;</div>
+      <q>A masterclass in controlled aggression.</q>
+      <div class="att">
+        <span class="badge">✓ SportyGo Singapore</span>
+        <span>Match report, 19 July 2026 — on the 103 off 56 balls</span>
+      </div>
+    </div>
+    <div class="quote">
+      <div class="mark">&ldquo;</div>
+      <q>Maturity well beyond his age.</q>
+      <div class="att">
+        <span class="badge">✓ SportyGo Singapore</span>
+        <span>Match report, 8 June 2025 — on the 119 off 75 balls</span>
+      </div>
+    </div>
+    <div class="quote">
+      <div class="mark">&ldquo;</div>
+      <q>One of the most dominant individual performances of the tournament.</q>
+      <div class="att">
+        <span class="badge">✓ SportyGo Singapore</span>
+        <span>Match report, 19 July 2026</span>
+      </div>
+    </div>
+  </div>
+  <p class="note">Quotations are short extracts from SportyGo Singapore's public match reports, reproduced with attribution. Full posts are linked in Sources.</p>
+</section>
+
+<!-- ================= TRAJECTORY ================= -->
+<section>
+  <span class="kick">Trajectory</span>
+  <h2>Three seasons, one direction</h2>
+  <p class="lede">Strike rate and batting average by primary campaign, from the CricClubs match record.</p>
+  <div class="chartcard">
+    <div class="chartwrap">
+    <svg class="chart" viewBox="0 0 900 372" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Strike rate rises 115.91 to 133.62 to 152.82; batting average 51.00, 67.00, 65.71">
+    <title>Strike rate and batting average by season</title>
+    <line x1="78" y1="300.0" x2="838" y2="300.0" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/>
+    <text x="66" y="304.0" fill="#8ea3bd" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="end">0</text>
+    <text x="850" y="304.0" fill="#19d3b0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="start">0</text>
+    <line x1="78" y1="230.5" x2="838" y2="230.5" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/>
+    <text x="66" y="234.5" fill="#8ea3bd" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="end">50</text>
+    <text x="850" y="234.5" fill="#19d3b0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="start">25</text>
+    <line x1="78" y1="161.0" x2="838" y2="161.0" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/>
+    <text x="66" y="165.0" fill="#8ea3bd" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="end">100</text>
+    <text x="850" y="165.0" fill="#19d3b0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="start">50</text>
+    <line x1="78" y1="91.5" x2="838" y2="91.5" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/>
+    <text x="66" y="95.5" fill="#8ea3bd" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="end">150</text>
+    <text x="850" y="95.5" fill="#19d3b0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="start">75</text>
+    <line x1="78" y1="22.0" x2="838" y2="22.0" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/>
+    <text x="66" y="26.0" fill="#8ea3bd" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="end">200</text>
+    <text x="850" y="26.0" fill="#19d3b0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="start">100</text>
+    <rect x="145.7" y="138.9" width="118" height="161.1" rx="4" fill="#4E7CA8" fill-opacity=".93"/>
+    <text x="204.7" y="127.9" fill="#ffffff" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" font-weight="800" text-anchor="middle">115.91</text>
+    <rect x="399.0" y="114.3" width="118" height="185.7" rx="4" fill="#6BA3D0" fill-opacity=".93"/>
+    <text x="458.0" y="103.3" fill="#ffffff" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" font-weight="800" text-anchor="middle">133.62</text>
+    <rect x="652.3" y="87.6" width="118" height="212.4" rx="4" fill="#FF2D4D" fill-opacity=".93"/>
+    <text x="711.3" y="76.6" fill="#ffffff" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" font-weight="800" text-anchor="middle">152.82</text>
+    <polyline points="204.7,158.2 458.0,113.7 711.3,117.3" fill="none" stroke="#19d3b0" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="204.7" cy="158.2" r="6.5" fill="#19d3b0" stroke="#0e1a2b" stroke-width="2"/>
+    <circle cx="458.0" cy="113.7" r="6.5" fill="#19d3b0" stroke="#0e1a2b" stroke-width="2"/>
+    <circle cx="711.3" cy="117.3" r="6.5" fill="#19d3b0" stroke="#0e1a2b" stroke-width="2"/>
+    <text x="204.7" y="326" fill="#c9d8e8" font-family="Inter,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle">CricKingdom 2024–25</text>
+    <text x="458.0" y="326" fill="#c9d8e8" font-family="Inter,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle">Scorpien Falcons 2025</text>
+    <text x="711.3" y="326" fill="#c9d8e8" font-family="Inter,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle">Scorpien Strikers 2026</text>
+    <text transform="translate(20,161.0) rotate(-90)" fill="#8ea3bd" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle">Strike rate</text>
+    <text transform="translate(884,161.0) rotate(90)" fill="#19d3b0" font-family="Inter,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="middle">Batting average</text>
+    <rect x="310" y="348" width="26" height="11" rx="2" fill="#6BA3D0"/>
+    <text x="346" y="358" fill="#8ea3bd" font-family="Inter,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">Strike rate</text>
+    <line x1="460" y1="353" x2="498" y2="353" stroke="#19d3b0" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="479" cy="353" r="5.5" fill="#19d3b0" stroke="#0e1a2b" stroke-width="2"/>
+    <text x="510" y="358" fill="#8ea3bd" font-family="Inter,Helvetica,Arial,sans-serif" font-size="13" font-weight="600">Batting average</text>
+    </svg>
+    </div>
+    <div class="cap">Bars are strike rate (left axis); the line is batting average (right axis). Strike rate rises in every season; the average peaks in 2025 and eases 1.29 in 2026.</div>
+  </div>
+</section>
+
+<!-- ================= RECORD ================= -->
+<section>
+  <span class="kick">The record</span>
+  <h2>Full batting record, 2024–2026</h2>
+  <p class="lede">Every match on the SportyGo/CricClubs system across five squad registrations. Nothing estimated — each row is checkable at the sources below.</p>
+  <div class="tablecard"><div class="scroll">
+    <table>
+      <thead><tr>
+        <th>Squad</th><th>Mat</th><th>Inns</th><th>NO</th><th>Runs</th><th>Avg</th><th>SR</th>
+        <th>HS</th><th>100s</th><th>50s</th><th>4s</th><th>6s</th><th>Wkts</th>
+      </tr></thead>
+      <tbody>
+        <tr><td>CricKingdom / Bolts / Cardinals<span class="win">May 2024 – Mar 2025</span></td>
+          <td>10</td><td>9</td><td>4</td><td>255</td><td>51.00</td><td>115.91</td><td>62</td><td>0</td><td>1</td><td>32</td><td>3</td><td>10</td></tr>
+        <tr><td>Scorpien Falcons<span class="win">Feb – Nov 2025</span></td>
+          <td>11</td><td>10</td><td>3</td><td>469</td><td>67.00</td><td>133.62</td><td class="hot">119</td><td>2</td><td>3</td><td>74</td><td>10</td><td>2</td></tr>
+        <tr><td>Scorpien Eagles<span class="win">Mar – Aug 2025</span></td>
+          <td>3</td><td>1</td><td>0</td><td>38</td><td>38.00</td><td>146.15</td><td>38</td><td>0</td><td>0</td><td>4</td><td>2</td><td>1</td></tr>
+        <tr><td>Scorpien Smashers<span class="win">May – Jul 2026</span></td>
+          <td>4</td><td>4</td><td>1</td><td>115</td><td>38.33</td><td>115.00</td><td>90</td><td>0</td><td>1</td><td>14</td><td>0</td><td>3</td></tr>
+        <tr><td>Scorpien Strikers<span class="win">Mar – Nov 2026</span></td>
+          <td>9</td><td>9</td><td>2</td><td>460</td><td>65.71</td><td class="hot">152.82</td><td>103</td><td>2</td><td>3</td><td>75</td><td>8</td><td>3</td></tr>
+        <tr class="tot"><td>Career total</td>
+          <td>37</td><td>33</td><td>10</td><td>1,337</td><td>58.13</td><td>133.97</td><td>119</td><td>4</td><td>8</td><td>199</td><td>23</td><td>19</td></tr>
+      </tbody>
+    </table>
+  </div></div>
+  <p class="note">Suhaann is registered under two spellings (“Suhaan” and “Suhaann”) across five squads. All five are the same player; totals are the sum of those records.</p>
+</section>
+
+<!-- ================= HONOURS ================= -->
+<section>
+  <span class="kick">Honours</span>
+  <h2>U11 3Cricket League 2025 — a clean sweep</h2>
+  <p class="lede">Eight teams, thirty matches, Singapore. Playing for Dulwich College, Suhaann finished top of three of the four league leaderboards — and the margins were not close.</p>
+  <div class="hons">
+    <div class="hon"><div class="r">#1</div><h3>Most Valuable Player</h3>
+      <p>34.98 rating points — batting 22.63, bowling 7.31, fielding 5.04.</p>
+      <div class="gap">71% clear of the next player (20.49)</div></div>
+    <div class="hon"><div class="r">#1</div><h3>Leading Run-Scorer</h3>
+      <p>224 runs at 74.67 from six innings, three times not out, with 36 fours. Best of 54.</p>
+      <div class="gap">2.5× the runs of the next batter (89)</div></div>
+    <div class="hon"><div class="r">#1</div><h3>Leading Fielder</h3>
+      <p>Five dismissals in seven matches — two catches and three run-outs.</p>
+      <div class="gap">Top of the league fielding table</div></div>
+  </div>
+  <p class="note">3Cricket is a modified short format; strike rates across the whole league sit below standard T20 rates, so this competition reads on rank and margin rather than raw scoring pace.</p>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section>
+  <span class="kick">In the middle</span>
+  <h2>The seasons in pictures</h2>
+  <div class="gal">
+    <div class="gi"><img src="media/twotrophies.jpg" alt="With two awards from a single match day"><div class="cp">Two awards, one match day</div></div>
+    <div class="gi"><img src="media/crease.jpg" alt="Batting at the crease"><div class="cp">At the crease</div></div>
+    <div class="gi"><img src="media/award.jpg" alt="3Cricket League award"><div class="cp">3Cricket League award</div></div>
+    <div class="gi"><img src="media/trophy.jpg" alt="With trophy"><div class="cp">Player of the match</div></div>
+    <div class="gi"><img src="media/medal1.jpg" alt="Medal presentation"><div class="cp">Medal presentation</div></div>
+    <div class="gi"><img src="media/medal2.jpg" alt="Medal presentation"><div class="cp">On presentation day</div></div>
+    <div class="gi"><img src="media/medal3.jpg" alt="With award"><div class="cp">Award day</div></div>
+    <div class="gi"><img src="media/medal4.jpg" alt="With coach"><div class="cp">With his coach</div></div>
+    <div class="gi w2"><img src="media/squad.jpg" alt="Squad photo"><div class="cp">Squad, Dulwich College</div></div>
+    <div class="gi"><img src="media/prematch.jpg" alt="Before play"><div class="cp">Before play</div></div>
+    <div class="gi"><img src="media/field.jpg" alt="In the field"><div class="cp">In the field</div></div>
+  </div>
+</section>
+
+<!-- ================= VIDEO ================= -->
+<section>
+  <span class="kick">Footage</span>
+  <h2>Match video</h2>
+  <p class="lede">Five consecutive deliveries filmed square of the wicket in November 2026 — close enough to read stance, trigger movement and shot selection.</p>
+  <div class="vids">
+    <div class="vid" style="grid-column:span 3"><video controls playsinline preload="metadata" poster="media/poster_reel.jpg" src="media/reel_2026.mp4"></video>
+      <div class="vc"><div class="vt">The batting reel — five deliveries, uncut</div><div class="vd">November 2026 · 40 seconds · nothing removed</div></div></div>
+    <div class="vid"><video controls playsinline preload="none" poster="media/poster_ball_1.jpg" src="media/ball_1.mp4"></video>
+      <div class="vc"><div class="vt">Delivery 1</div><div class="vd">7 seconds</div></div></div>
+    <div class="vid"><video controls playsinline preload="none" poster="media/poster_ball_3.jpg" src="media/ball_3.mp4"></video>
+      <div class="vc"><div class="vt">Delivery 3</div><div class="vd">10 seconds</div></div></div>
+    <div class="vid"><video controls playsinline preload="none" poster="media/poster_nov2026.jpg" src="media/clip_nov2026.mp4"></video>
+      <div class="vc"><div class="vt">At the crease — November 2026</div><div class="vd">15 November 2026 · 12 seconds · square of the wicket</div></div></div>
+    <div class="vid"><video controls playsinline preload="none" poster="media/field.jpg" src="media/clip_IMG_6524.mp4"></video>
+      <div class="vc"><div class="vt">Match play — day of the 103</div><div class="vd">19 July 2026 · 12 seconds · from the boundary</div></div></div>
+  </div></section>
+
+<!-- ================= PROFILE ================= -->
+<section>
+  <span class="kick">Profile</span>
+  <h2>Player detail</h2>
+  <div class="pgrid">
+    <div class="det"><h3>Technical</h3>
+      <dl>
+        <dt>Batting</dt><dd>Right-hand, opener</dd>
+        <dt>Bowling</dt><dd>Right-arm medium</dd>
+        <dt>Role</dt><dd>Top-order batter / all-rounder</dd>
+        <dt>Wickets</dt><dd>19 in 37 matches</dd>
+        <dt>School</dt><dd>Dulwich College (Singapore)</dd>
+      </dl></div>
+    <div class="det"><h3>Scoring signature</h3>
+      <dl>
+        <dt>Boundary runs</dt><dd>69.9% of career</dd>
+        <dt>Fours / sixes</dt><dd>199 / 23</dd>
+        <dt>Balls faced</dt><dd>998</dd>
+        <dt>Scores of 25+</dt><dd>19 of 33 innings</dd>
+        <dt>Quickest recorded ton</dt><dd>103 off 56</dd>
+      </dl></div>
+  </div>
+</section>
+
+<!-- ================= SOURCES ================= -->
+<section>
+  <span class="kick">Verification</span>
+  <h2>Sources</h2>
+  <div class="src">
+    <ul>
+      <li><span>CricHeroes — U11 3Cricket League 2025 leaderboards</span>
+        <a href="https://cricheroes.com/tournament/1588075/u11-3cricket-league-2025/leaderboard">cricheroes.com</a></li>
+      <li><span>SportyGo Singapore — match report, 19 July 2026 (103)</span>
+        <a href="https://www.facebook.com/SportyGoSingapore">facebook.com/SportyGoSingapore</a></li>
+      <li><span>SportyGo Singapore — match report, 8 June 2025 (119)</span>
+        <a href="https://www.facebook.com/photo.php?fbid=1134632775370414&set=pb.100064711057375.-2207520000&type=3">facebook.com · post</a></li>
+      <li><span>CricClubs — Suhaann Patel, ID 6653372 (Scorpien Strikers)</span>
+        <a href="https://cricclubs.com/sportygo/viewPlayer.do?playerId=6653372&clubId=4263">playerId=6653372</a></li>
+      <li><span>CricClubs — Suhaan Patel, ID 4947226 (Scorpien Falcons)</span>
+        <a href="https://cricclubs.com/sportygo/viewPlayer.do?playerId=4947226&clubId=4263">playerId=4947226</a></li>
+      <li><span>CricClubs — Suhaan Patel, ID 4717832 (CricKingdom Cardinals)</span>
+        <a href="https://cricclubs.com/sportygo/viewPlayer.do?playerId=4717832&clubId=4263">playerId=4717832</a></li>
+      <li><span>CricClubs — Suhaan Patel, ID 6792642 (Scorpien Smashers)</span>
+        <a href="https://cricclubs.com/sportygo/viewPlayer.do?playerId=6792642&clubId=4263">playerId=6792642</a></li>
+      <li><span>CricClubs — Suhaan Patel, ID 5046522 (Scorpien Eagles)</span>
+        <a href="https://cricclubs.com/sportygo/viewPlayer.do?playerId=5046522&clubId=4263">playerId=5046522</a></li>
+    </ul>
+    <p class="note">All five player records retrieved directly from CricClubs on 19 November 2026. Listing sources is deliberate: a coach who can verify one claim in a single click treats the rest of the document as credible.</p>
+  </div>
+</section>
+
+</div>
+
+<footer>Suhaann Patel · Cricket portfolio · Singapore · Updated November 2026<br><span style="opacity:.6">All statistics independently verifiable at the sources listed above.</span></footer>
+
+</body>
+</html>
